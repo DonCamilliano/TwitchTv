@@ -1,0 +1,15 @@
+p {
+    text-align: center;
+}
+
+.text {
+    float: left;
+}
+
+.status {
+    float: right;
+}
+
+li {
+    min-height: 42px;
+}

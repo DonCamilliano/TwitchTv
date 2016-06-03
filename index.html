@@ -1,0 +1,40 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-resource.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body ng-app='TwitchtvApp' class='container'>
+    <div class="row">
+        <div class="col-xs-12">
+            <p><img src="http://www.tabletowo.pl/wp-content/uploads/2014/03/twitch-logo1.jpg" alt="Twitchtv"></p>
+            <div ng-controller='TwitchtvCtrl'>
+                <div class="row">
+                    <div class="col-xs-6 col-xs-push-3">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-{{pclass0}}" id="st0"><span class="text"><a href="https://www.twitch.tv/{{name0}}">{{name0}}</a> {{rec0}} {{game0}} </span><span class="status">{{status0}}</span></li>
+                            <li class="list-group-item list-group-item-{{pclass1}}" id="st1"><span class="text"><a href="https://www.twitch.tv/{{name1}}">{{name1}} {{rec1}} {{game1}} </span><span class="status">{{status1}}</span></li>
+                            <li class="list-group-item list-group-item-{{pclass2}}" id="st2"><span class="text"><a href="https://www.twitch.tv/{{name2}}">{{name2}} {{rec2}} {{game2}} </span><span class="status">{{status1}}</span></li>
+                            <li class="list-group-item list-group-item-{{pclass3}}" id="st3"><span class="text"><a href="https://www.twitch.tv/{{name3}}">{{name3}} {{rec3}} {{game3}} </span><span class="status">{{status3}}</span></li>
+                            <li class="list-group-item list-group-item-{{pclass4}}" id="st4"><span class="text"><a href="https://www.twitch.tv/{{name4}}">{{name4}} {{rec4}} {{game4}} </span><span class="status">{{status4}}</span></li>
+                            <li class="list-group-item list-group-item-{{pclass5}}" id="st5"><span class="text"><a href="https://www.twitch.tv/{{name5}}">{{name5}} {{rec5}} {{game5}} </span><span class="status">{{status5}}</span></li>
+                            <li class="list-group-item list-group-item-{{pclass6}}" id="st6"><span class="text"><a href="https://www.twitch.tv/{{name6}}">{{name6}} {{rec6}} {{game6}} </span><span class="status">{{status6}}</span></li>
+                            <li class="list-group-item list-group-item-{{pclass7}}" id="st7"><span class="text"><a href="https://www.twitch.tv/{{name7}}">{{name7}} {{rec7}} {{game7}} </span><span class="status">{{status7}}</span></li>
+                            <li class="list-group-item list-group-item-{{pclass8}}" id="st8"><span class="text"><a href="https://www.twitch.tv/{{name8}}">{{name8}} {{rec8}} {{game8}} </span><span class="status">{{status8}}</span></li>
+                            <li class="list-group-item list-group-item-{{pclass9}}" id="st9"><span class="text"><a href="https://www.twitch.tv/{{name9}}">{{name9}} {{rec9}} {{game9}} </span><span class="status">{{status9}}</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
